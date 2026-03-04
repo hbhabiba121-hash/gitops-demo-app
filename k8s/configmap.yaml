@@ -18,7 +18,7 @@ data:
     </head>
     <body>
         <h1>✅ GitOps avec ArgoCDDD</h1>
-        <div class="version">Version 3.0 (Stable)</div>
+        <div class="version">Version 4.0 (Stable)</div>
         <p class="status">🟢 Application deployee depuis Git</p>
         <p>Derniere synchronisation: <span id="time"></span></p>
         <script>document.getElementById('time').innerText = new Date().toLocaleString();</script>
