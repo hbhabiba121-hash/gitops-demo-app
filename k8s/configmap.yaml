@@ -8,6 +8,7 @@ data:
     <!DOCTYPE html>
     <html>
     <head>
+        <meta charset="UTF-8">
         <title>GitOps Demo</title>
         <style>
             body { font-family: Arial; text-align: center; padding: 50px; background-color: #f0f8ff; }
@@ -17,9 +18,9 @@ data:
     </head>
     <body>
         <h1>✅ GitOps avec ArgoCD</h1>
-        <div class="version">Version 2.0 (Stable)</div>
-        <p class="status">🟢 Application déployée depuis Git</p>
-        <p>Dernière synchronisation: <span id="time"></span></p>
+        <div class="version">Version 1.0 (Stable)</div>
+        <p class="status">🟢 Application deployee depuis Git</p>
+        <p>Derniere synchronisation: <span id="time"></span></p>
         <script>document.getElementById('time').innerText = new Date().toLocaleString();</script>
     </body>
     </html>
